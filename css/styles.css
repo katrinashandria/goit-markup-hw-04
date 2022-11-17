@@ -245,6 +245,12 @@ li.nav-item.no-margin {
 .hero {
     text-align: center;
     background-color: var(--secondary-background-color);
+    background-image: url("../images/bgimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 200px 0;
 }
 
@@ -320,6 +326,12 @@ li.nav-item.no-margin {
     /* margin-right: 30px;
     margin-bottom: 30px; */
     border: solid 1px #EEEEEE;
+}
+
+.client-item {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 17px 63px;
 }
 
 .project-grid {
