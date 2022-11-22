@@ -363,6 +363,16 @@ li.nav-item.no-margin {
     justify-content: center;
 }
 
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+fill: var(--accent-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+    border-color: var(--accent-color);
+}
+
 .project-grid {
     padding: 30px 24px;
 }
