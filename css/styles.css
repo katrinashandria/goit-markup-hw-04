@@ -438,7 +438,7 @@ fill: var(--accent-color);
     background-position: center;
 }
 
-li.item.icons.icon-mail::before {
+/* li.item.icons.icon-mail::before {
     background-image: url(../images/envelope.png);
     width: 16px;
     height: 12px;
@@ -448,15 +448,16 @@ li.item.icons.icon-mobile::before {
     background-image: url(../images/mobile.png);
     width: 10px;
     height: 16px;
-}
+} */
 
 .item-feature {
     width: 270px;
 }
 
-.item-feature::before {
+/* .item-feature::before {
     content: "";
     display: block;
+    width: 270px;
     height: 120px;
     border-radius: 4px;
     margin-bottom: 30px;
@@ -464,10 +465,11 @@ li.item.icons.icon-mobile::before {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
-.item-feature.icon-satelite::before {
+/* .item-feature.icon-satelite::before {
 background-image: url(../images/icons/satelite.svg);
+
 }
 
 .item-feature.icon-clock::before {
@@ -479,7 +481,21 @@ background-image: url(../images/);
 }
 
 .item-feature.icon-space::before {
-background-image: url(../images/);
+background-image: url(../images/); }*/
+
+.advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.feature-icon {
+    
 }
 
 .team-item:nth-child(4n) {
