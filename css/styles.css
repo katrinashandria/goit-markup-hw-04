@@ -535,21 +535,36 @@ p.project-type-title {
     color: var(--secondary-text-color);
 }
 
-.team-social {
+.socials {
     display: flex;
     margin-top: 16px;
     gap: 10px;
     justify-content: center;
+    align-items: center;
+   
 }
 
-.team-icon {
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background-color: transparent;
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
 }
 
-.team-icon:hover {
+.social-icon {
+    fill: var(--secondary-text-color);
+    justify-content: center;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+fill: var(--main-background-color);
+}
+
+.social-link:hover, .social-link:focus {
     background-color: var(--accent-color);
 }
 
@@ -657,3 +672,4 @@ margin-right: 10px;
     fill: var(--secondary-text-color);
     margin-right: 10px;
 }
+
