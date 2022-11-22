@@ -645,18 +645,28 @@ fill: var(--main-background-color);
 
 .footer-social {
     display: flex;
-    margin-bottom: 41px;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-icon {
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-icon:hover {
+.footer-icon {
+    fill: var(--main-background-color);
+    justify-content: center;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
     background-color: var(--accent-color);
 }
 
