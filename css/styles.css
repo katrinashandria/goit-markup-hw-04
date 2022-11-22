@@ -644,3 +644,16 @@ p.project-type-title {
 .footer-icon:hover {
     background-color: var(--accent-color);
 }
+
+
+/*--------icons-----------*/
+
+.icon-mail {
+fill: var(--secondary-text-color);
+margin-right: 10px;
+}
+
+.icon-mobile {
+    fill: var(--secondary-text-color);
+    margin-right: 10px;
+}
