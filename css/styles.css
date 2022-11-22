@@ -78,6 +78,12 @@ img {
     align-items: center;
 }
 
+.header-mail, .header-phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -92,10 +98,10 @@ img {
 .contact-list {
     display: flex;
     margin-left: auto;
-    align-items: baseline;
+    align-items: center;
 }
 
-.contact-list .item + .item {
+.header-phone {
     margin-left: 50px;
 }
 
@@ -359,7 +365,7 @@ li.nav-item.no-margin {
 }
 
 .client-icon {
-    fill: var(--secondary-text-color);
+    fill: #AFB1B8;
     justify-content: center;
 }
 
@@ -426,7 +432,6 @@ fill: var(--accent-color);
     content: "";
     display: inline-flex;
     justify-content: center;
-    /* align-items: baseline; */
     margin-right: 10px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -462,7 +467,7 @@ li.item.icons.icon-mobile::before {
 }
 
 .item-feature.icon-satelite::before {
-background-image: url(../images/);
+background-image: url(../images/icons/satelite.svg);
 }
 
 .item-feature.icon-clock::before {
@@ -583,7 +588,7 @@ p.project-type-title {
 }
 
 .social-icon {
-    fill: var(--secondary-text-color);
+    fill: #AFB1B8;
     justify-content: center;
 }
 
@@ -702,12 +707,10 @@ fill: var(--main-background-color);
 /*--------icons-----------*/
 
 .icon-mail {
-fill: var(--secondary-text-color);
-margin-right: 10px;
+fill: currentColor;
 }
 
 .icon-mobile {
-    fill: var(--secondary-text-color);
-    margin-right: 10px;
+    fill: currentColor
 }
 
