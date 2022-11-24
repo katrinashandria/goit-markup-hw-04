@@ -41,9 +41,9 @@ img {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    max-width: 1600px;
+    /* max-width: 1600px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 /*------------zero-----------------*/
@@ -199,8 +199,8 @@ li.nav-item.no-margin {
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--main-background-color);
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: transparent;
@@ -216,7 +216,7 @@ li.nav-item.no-margin {
     line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
     background: #F5F4FA;
     border-radius: 4px;
     border-color: transparent;
@@ -229,10 +229,9 @@ li.nav-item.no-margin {
 }
 
 .filter-button:hover, .filter-button:focus {
-    color:#FFFFFF;
-    background: #2196F3;
+    color: var(--main-background-color);
+    background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
 }
 
 .header-mail {
@@ -621,14 +620,14 @@ fill: var(--main-background-color);
 
 .footer {
     
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--secondary-background-color);
-    max-width: 1600px;
+    /* max-width: 1600px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 .address {
@@ -673,18 +672,19 @@ fill: var(--main-background-color);
 }
 
 .footer-title {
-    margin: 12px 0px 20px;
+    margin-bottom: 20px;
     font-size: 14px;
     font-weight: 700;
     line-height: calc(16/14);
     text-transform: uppercase;
-    color: white;
+    color: var(--main-background-color);
 }
 
 .footer-block {
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
+    align-items: baseline;
 }
 
 .footer-address {
